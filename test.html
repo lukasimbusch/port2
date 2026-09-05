@@ -3,7 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lukas Zuckschwert</title>
+<title>Lukas Zuckschwert — Websites for Small Businesses in Switzerland</title>
+<meta name="description" content="Lukas Zuckschwert is a student developer in Switzerland building custom websites, redesigns, and EN↔DE translation for small businesses and personal projects.">
+<link rel="canonical" href="https://lukasimbusch.ch/">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lukasimbusch.ch/">
+<meta property="og:title" content="Lukas Zuckschwert — Websites for Small Businesses in Switzerland">
+<meta property="og:description" content="Student developer in Switzerland building custom websites, redesigns, and EN↔DE translation for small businesses and personal projects.">
+<meta property="og:image" content="https://lukasimbusch.ch/og-image.jpg">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lukas Zuckschwert — Websites for Small Businesses in Switzerland">
+<meta name="twitter:description" content="Student developer in Switzerland building custom websites, redesigns, and EN↔DE translation for small businesses and personal projects.">
+<meta name="twitter:image" content="https://lukasimbusch.ch/og-image.jpg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -207,6 +225,20 @@ footer{border-top:1px solid var(--line);padding:26px 32px;text-align:center;colo
   *{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important;}
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Lukas Zuckschwert",
+  "url": "https://lukasimbusch.ch/",
+  "email": "mailto:lukasimbusch@proton.me",
+  "jobTitle": "Web Developer",
+  "description": "Student developer in Switzerland building custom websites, redesigns, and EN\u2194DE translation for small businesses and personal projects.",
+  "knowsLanguage": ["de", "en"],
+  "nationality": "Swiss",
+  "knowsAbout": ["Web Development", "HTML", "CSS", "JavaScript", "AI-assisted development"]
+}
+</script>
 </head>
 <body>
 <div class="grain"></div>
@@ -485,7 +517,7 @@ const projectsClients = [
     id: 2,
     name: 'Tagesmami Wirbelwind',
     url: 'https://tagesmami-wirbelwind.ch',
-    img: '/picture/Tagesmami_banner.png', // Put your image URL or filename here (e.g., 'tagesmami.png')
+    img: 'Picture/Tagesmami_banner.png', // Put your image URL or filename here (e.g., 'tagesmami.png')
     c1: '#e8a33d',
     c2: '#8a4a1c',
     desc: 'Booking site for a Swiss childcare provider, in German.',
@@ -495,9 +527,35 @@ const projectsClients = [
 ];
 const projectsInProgress = [];
 const projectsLive = [
-  {id:3,name:'WebOS Sandbox',url:'https://webos.lukasimbusch.ch',img:'',c1:'#c98be0',c2:'#5a2f70',desc:'A browser-based desktop environment, just for fun.',tags:['HTML','CSS','JavaScript','Custom dev'],full:'A working desktop simulation that runs entirely in the browser — draggable windows, a notepad app, a folder explorer, a login screen, theming, and a live clock. A pure custom-development experiment to see how far the browser can be pushed.'},
-  {id:4,name:'Password Generator',url:'https://passwd-gen.lukasimbusch.ch',img:'',c1:'#4dd8c0',c2:'#173a66',desc:'Client-side tool that generates up to 50M secure passwords.',tags:['HTML','CSS','JavaScript','Crypto API'],full:'A password generator that runs fully client-side — nothing is sent to a server. Configurable length, character sets, and RNG mode (crypto.getRandomValues or Math.random), with live entropy stats and export to .txt.'},
-  {id:5,name:'Cloud Storage',url:'',img:'',c1:'#4dd8c0',c2:'#12665a',desc:'A personal cloud storage project to store and access files from anywhere.',tags:['HTML','CSS','JavaScript','AI-assisted'],full:'A personal cloud storage app — my main space for learning by building. It handles storing and accessing files from anywhere, and it\'s where I push myself to understand a bit more of the code behind the AI-assisted parts each time.'},
+  {id:3,
+  name:'WebOS Sandbox',
+  url:'https://webos.lukasimbusch.ch',
+  img:'Picture/WebOS_banner.png',
+  c1:'#c98be0',
+  c2:'#5a2f70',
+  desc:'A browser-based desktop environment, just for fun.',
+  tags:['HTML','CSS','JavaScript','Custom dev'],
+  full:'A working desktop simulation that runs entirely in the browser — draggable windows, a notepad app, a folder explorer, a login screen, theming, and a live clock. A pure custom-development experiment to see how far the browser can be pushed.'},
+ 
+ 
+ 
+  {id:4,name:'Password Generator',
+  url:'https://passwd-gen.lukasimbusch.ch',
+  img:'Picture/Passwd_banner.png',
+  c1:'#4dd8c0',
+  c2:'#173a66',desc:'Client-side tool that generates up to 50M secure passwords.',
+  tags:['HTML','CSS','JavaScript','Crypto API'],
+  full:'A password generator that runs fully client-side — nothing is sent to a server. Configurable length, character sets, and RNG mode (crypto.getRandomValues or Math.random), with live entropy stats and export to .txt.'},
+ 
+  {id:5,
+    name:'Cloud Storage',
+    url:'https://cloud.lukasimbusch.ch',
+    img:'/Picture/Cloud_banner.png',
+    c1:'#4dd8c0',
+    c2:'#12665a',
+    desc:'A personal cloud storage project to store and access files from anywhere.',
+    tags:['HTML','CSS','JavaScript','AI-assisted'],
+    full:'A personal cloud storage app — my main space for learning by building. It handles storing and accessing files from anywhere, and it\'s where I push myself to understand a bit more of the code behind the AI-assisted parts each time.'},
 ];
 const projectsNext = [];
 
